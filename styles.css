@@ -44,7 +44,7 @@ body {
     width: 0;
   }
   to {
-    width: 18em;
+    width: 9em;
   }
 }
 
@@ -54,7 +54,7 @@ body {
       width: 0;
     }
     to {
-      width: 17em;
+      width: 9em;
     }
   }
 }
@@ -586,8 +586,7 @@ textarea:focus {
 }
 
 .picture1 {
-  background: url("images/Transgressus-01\,\ 45x85cm\,\ 2017.JPG ") no-repeat
-    50% 50%;
+  background: url("images/Transgressus\ -01.jpg ") no-repeat 50% 50%;
   background-size: cover;
 }
 
