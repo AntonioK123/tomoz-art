@@ -425,76 +425,77 @@ h6 {
 .picture1 {
   background: url("images/Transgressus-01\,\ 45x85cm\,\ 2017.JPG ") no-repeat
     50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .picture2 {
   background: url("images/Transgressus-02\,\ 45x85cm\,\ 2017.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture3 {
   background: url("images/Transgressus-03\,\ 50x80cm\,\ 2017.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture4 {
   background: url("images/Transgressus-05\,\ 70x70cm\,\ 2017.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+
+  background-size: contain;
 }
 .picture5 {
   background: url("images/Transgressus-06\,\ 70x70cm\,\ 2017.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture6 {
   background: url("images/Transgressus-07\,\ 24x40cm\,\ 2018.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture7 {
   background: url("images/Transgressus-08\,\ 45x85cm\,\ 2018.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture8 {
   background: url("images/Transgressus-09\,\ 60x100cm\,\ 2018.JPG") no-repeat
     50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .picture9 {
   background: url("images/Transgressus-10\,\ 80x100cm\,\ 2018.JPG") no-repeat
     50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture10 {
   background: url("images/Transgressus-14\,\ 40x70cm\,\ 2018.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture11 {
   background: url("images/Transgressus-15\,\ 45x85cm\,\ 2018.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .picture12 {
   background: url("images/Transgressus-20\,\ 70x70cm\,\ 2018.JPG") no-repeat 50%
     50%;
-  background-size: cover;
+  background-size: contain;
 }
 .picture13 {
   background: url("images/Transgressus-21\,\ 60x100cm\,\ 2018..JPG") no-repeat
     50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .picture14 {
   background: url("images/Transgressus-22\,\ 60x100cm\,\ 2018..JPG") no-repeat
     50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 @media (max-width: 768px) {
