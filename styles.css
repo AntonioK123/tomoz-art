@@ -251,39 +251,8 @@ nav #menu li a:hover {
   .header h1 {
     font-size: 26px;
   }
-}
-
-/*-----------------------Projects Section-------------------*/
-
-h6 {
-  text-align: center;
-}
-
-.vertical {
-  margin-top: 40px;
-  border-left: 1px solid #fff;
-  height: 80px;
-  position: absolute;
-  left: 50%;
-}
-
-.project {
-  height: 500px;
-}
-
-@media (max-width: 768px) {
-  .project {
-    width: 90% !important;
-    margin: 14px auto;
-  }
-  .vertical {
-    display: none;
-  }
-  .project1::after,
-  .project2::after,
-  .project3::after,
-  .project4::after {
-    display: none;
+  .hero {
+    height: 92vh;
   }
 }
 
@@ -426,87 +395,375 @@ h6 {
   background: url("images/Transgressus-01\,\ 45x85cm\,\ 2017.JPG ") no-repeat
     50% 50%;
   background-size: contain;
+  margin: 0 0 0 -20%;
+  padding: 0;
+}
+.picture1::after {
+  content: "Transgressus - 01, 45x85cm, 2017";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 30%;
+  right: -105%;
 }
 
 .picture2 {
   background: url("images/Transgressus-02\,\ 45x85cm\,\ 2017.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: 0 0 0 -20%;
+  padding: 0;
 }
+
+.picture2::after {
+  content: "Transgressus - 02, 45x85cm, 2017";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 30%;
+  right: -105%;
+}
+
 .picture3 {
   background: url("images/Transgressus-03\,\ 50x80cm\,\ 2017.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: 0 0 -30% 30%;
+  padding: 0;
 }
+
+.picture3::after {
+  content: "Transgressus - 03, 45x85cm, 2017";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 30%;
+  right: 40%;
+}
+
 .picture4 {
   background: url("images/Transgressus-05\,\ 70x70cm\,\ 2017.JPG") no-repeat 50%
     50%;
-
   background-size: contain;
+  padding: 0;
 }
+
+.picture4::after {
+  content: "Transgressus - 05, 70x70cm, 2017";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 100%;
+  right: -15%;
+}
+
 .picture5 {
   background: url("images/Transgressus-06\,\ 70x70cm\,\ 2017.JPG") no-repeat 50%
     50%;
   background-size: contain;
 }
+
+.picture5::after {
+  content: "Transgressus - 06, 70x70cm, 2017";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 100%;
+  right: -15%;
+}
+
 .picture6 {
   background: url("images/Transgressus-07\,\ 24x40cm\,\ 2018.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: 10% 0 0 -23%;
+  padding: 0;
 }
+
+.picture6::after {
+  content: "Transgressus - 07, 24x40cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 20%;
+  left: 105%;
+}
+
 .picture7 {
   background: url("images/Transgressus-08\,\ 45x85cm\,\ 2018.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: 10% 0 0 27%;
+  padding: 0;
 }
+
+.picture7::after {
+  content: "Transgressus - 08, 45x85cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 40%;
+  left: -40%;
+}
+
 .picture8 {
   background: url("images/Transgressus-09\,\ 60x100cm\,\ 2018.JPG") no-repeat
     50% 50%;
   background-size: contain;
+  margin: -40% 0 0 -24%;
+  padding: 0;
+}
+
+.picture8::after {
+  content: "Transgressus - 09, 60x100cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 40%;
+  left: 105%;
 }
 
 .picture9 {
   background: url("images/Transgressus-10\,\ 80x100cm\,\ 2018.JPG") no-repeat
     50% 50%;
   background-size: contain;
+  margin: -35% 0 0 0;
+  padding: 0;
+  height: 700px;
 }
+
+.picture9::after {
+  content: "Transgressus - 10, 80x100cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 105%;
+  left: 33%;
+}
+
 .picture10 {
   background: url("images/Transgressus-14\,\ 40x70cm\,\ 2018.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: -5% 0 0 30%;
+  padding: 0;
+}
+
+.picture10::after {
+  content: "Transgressus - 14, 40x70cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 20%;
+  left: -37%;
 }
 .picture11 {
   background: url("images/Transgressus-15\,\ 45x85cm\,\ 2018.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: -40% 0 0 -19%;
+  padding: 0;
+}
+
+.picture11::after {
+  content: "Transgressus - 15, 45x85cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 40%;
+  left: 105%;
 }
 
 .picture12 {
   background: url("images/Transgressus-20\,\ 70x70cm\,\ 2018.JPG") no-repeat 50%
     50%;
   background-size: contain;
+  margin: -35% 0 0 0;
+  padding: 0;
+  height: 900px;
 }
+
+.picture12::after {
+  content: "Transgressus - 20, 70x70cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 105%;
+  left: 33%;
+}
+
 .picture13 {
   background: url("images/Transgressus-21\,\ 60x100cm\,\ 2018..JPG") no-repeat
     50% 50%;
   background-size: contain;
+  margin: 15% 0 0 32%;
+  padding: 0;
+}
+
+.picture13::after {
+  content: "Transgressus - 21, 60x100cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 40%;
+  left: -36%;
 }
 
 .picture14 {
   background: url("images/Transgressus-22\,\ 60x100cm\,\ 2018..JPG") no-repeat
     50% 50%;
   background-size: contain;
+  margin: -40% 0 0 -23%;
+  padding: 0;
+}
+
+.picture14::after {
+  content: "Transgressus - 22, 60x100cm, 2018";
+  font-family: "Cormorant Garamond";
+  font-size: 26px;
+  position: relative;
+  color: #fff;
+  display: block;
+  top: 40%;
+  left: 105%;
 }
 
 @media (max-width: 768px) {
+  .gallery-wrapper {
+    width: 90% !important;
+    margin: -5% auto;
+  }
   .picture {
     width: 90% !important;
-    margin: 14px auto;
+    margin: -15% auto;
   }
+
+  .picture4 {
+    margin: 5% auto;
+  }
+
+  .picture5 {
+    margin: -72% auto;
+  }
+
+  .picture6 {
+    margin: 30% auto;
+  }
+
+  .picture7 {
+    margin: -65% auto;
+  }
+
+  .picture8 {
+    margin: 10% auto;
+  }
+
+  .picture9 {
+    margin: -57% auto;
+  }
+
+  .picture10 {
+    margin: 10% auto;
+  }
+
+  .picture11 {
+    margin: -48% auto;
+  }
+
+  .picture13 {
+    margin: -43% auto;
+  }
+
+  .picture14 {
+    margin: 10% auto -10%;
+  }
+
   .col-lg-1 {
     display: none;
   }
+
   .vertical {
     display: none;
+  }
+  .picture1::after,
+  .picture2::after {
+    top: 75%;
+    left: 10%;
+  }
+
+  .picture3::after {
+    top: 78%;
+    left: 10%;
+  }
+
+  .picture4::after {
+    top: 95%;
+    left: 10%;
+  }
+  .picture5::after {
+    top: 95%;
+    left: 7%;
+  }
+  .picture6::after {
+    top: 78%;
+    left: 10%;
+  }
+  .picture7::after {
+    top: 75%;
+    left: 10%;
+  }
+  .picture8::after {
+    top: 77%;
+    left: 10%;
+  }
+  .picture9::after {
+    top: 75%;
+    left: 10%;
+  }
+  .picture10::after {
+    top: 74%;
+    left: 10%;
+  }
+  .picture11::after {
+    top: 73%;
+    left: 10%;
+  }
+  .picture12::after {
+    top: 74%;
+    left: 10%;
+  }
+  .picture13::after {
+    top: 75%;
+    left: 10%;
+  }
+  .picture14::after {
+    top: 78%;
+    left: 10%;
   }
 }
