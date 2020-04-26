@@ -659,6 +659,7 @@ nav #menu li a:hover {
     width: 90% !important;
     margin: -5% auto;
   }
+
   .picture {
     width: 90% !important;
     margin: -15% auto;
@@ -727,7 +728,7 @@ nav #menu li a:hover {
     left: 10%;
   }
   .picture5::after {
-    top: 95%;
+    top: 98%;
     left: 7%;
   }
   .picture6::after {
@@ -765,5 +766,22 @@ nav #menu li a:hover {
   .picture14::after {
     top: 78%;
     left: 10%;
+  }
+
+  .picture1::after,
+  .picture2::after,
+  .picture3::after,
+  .picture4::after,
+  .picture5::after,
+  .picture6::after,
+  .picture7::after,
+  .picture8::after,
+  .picture9::after,
+  .picture10::after,
+  .picture11::after,
+  .picture12::after,
+  .picture13::after,
+  .picture14::after {
+    font-size: 20px;
   }
 }
