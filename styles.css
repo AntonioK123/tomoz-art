@@ -654,7 +654,7 @@ nav #menu li a:hover {
   left: 105%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .gallery-wrapper {
     width: 90% !important;
     margin: -5% auto;
