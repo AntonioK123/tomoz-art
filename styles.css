@@ -45,7 +45,7 @@ body {
     width: 0;
   }
   to {
-    width: 8em;
+    width: 6em;
   }
 }
 
@@ -55,7 +55,7 @@ body {
       width: 0;
     }
     to {
-      width: 8em;
+      width: 6em;
     }
   }
 }
@@ -379,6 +379,9 @@ nav #menu li a:hover {
 }
 
 /*----------------Gallery Section---------------*/
+.gallery-resize {
+  display: none;
+}
 #galerija {
   text-align: center;
 }
@@ -654,118 +657,114 @@ nav #menu li a:hover {
   left: 105%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .gallery-wrapper {
-    width: 90% !important;
-    margin: -5% auto;
+    display: none;
   }
-
+  .gallery-resize {
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .picture {
     width: 90% !important;
-    margin: -15% auto;
-  }
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .picture1 {
+    margin-top: -20%;
+  }
   .picture4 {
-    margin: 5% auto;
+    margin-top: 5%;
   }
-
   .picture5 {
-    margin: -72% auto;
+    margin-top: -5%;
   }
-
   .picture6 {
-    margin: 30% auto;
+    margin-top: -20%;
   }
 
-  .picture7 {
-    margin: -65% auto;
+  .picture12 {
+    margin-top: -100%;
   }
-
-  .picture8 {
-    margin: 10% auto;
-  }
-
-  .picture9 {
-    margin: -57% auto;
-  }
-
-  .picture10 {
-    margin: 10% auto;
-  }
-
-  .picture11 {
-    margin: -48% auto;
-  }
-
   .picture13 {
-    margin: -43% auto;
+    margin-top: -80%;
   }
-
+  .picture2,
+  .picture3,
+  .picture7,
+  .picture8,
+  .picture9,
+  .picture10,
+  .picture11,
   .picture14 {
-    margin: 10% auto -10%;
+    margin-top: -55%;
   }
-
   .col-lg-1 {
     display: none;
   }
 
-  .vertical {
-    display: none;
-  }
   .picture1::after,
   .picture2::after {
-    top: 75%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
 
   .picture3::after {
-    top: 78%;
-    left: 10%;
+    top: 72%;
+    left: 12%;
   }
 
   .picture4::after {
-    top: 95%;
-    left: 10%;
+    top: 83%;
+    left: 12%;
   }
   .picture5::after {
-    top: 98%;
+    top: 83%;
     left: 7%;
   }
   .picture6::after {
-    top: 78%;
-    left: 10%;
+    top: 71%;
+    left: 12%;
   }
   .picture7::after {
-    top: 75%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
   .picture8::after {
-    top: 77%;
-    left: 10%;
+    top: 71%;
+    left: 12%;
   }
   .picture9::after {
-    top: 75%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
   .picture10::after {
-    top: 74%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
   .picture11::after {
-    top: 73%;
-    left: 10%;
+    top: 68%;
+    left: 12%;
   }
   .picture12::after {
-    top: 74%;
-    left: 10%;
+    top: 68%;
+    left: 12%;
   }
   .picture13::after {
-    top: 75%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
   .picture14::after {
-    top: 78%;
-    left: 10%;
+    top: 70%;
+    left: 12%;
   }
 
   .picture1::after,
@@ -782,6 +781,6 @@ nav #menu li a:hover {
   .picture12::after,
   .picture13::after,
   .picture14::after {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
