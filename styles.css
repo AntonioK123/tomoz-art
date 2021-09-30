@@ -379,6 +379,11 @@ nav #menu li a:hover {
 }
 
 /*----------------Gallery Section---------------*/
+
+.gallery-wrapper {
+  overflow-x: hidden;
+}
+
 .gallery-resize {
   display: none;
 }
