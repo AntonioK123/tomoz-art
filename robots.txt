@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tomislavzovko.com/
+Sitemap: https://tomislavzovko.com/sitemap.xml
